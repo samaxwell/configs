@@ -1,0 +1,7 @@
+zuul:
+   ignored-services: '*'
+   prefix: /api
+   routes:
+      configserver: /configs/**
+      userservice: /authors/**
+      blogcrud: /blogs/**
