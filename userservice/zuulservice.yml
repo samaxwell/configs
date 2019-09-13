@@ -1,0 +1,15 @@
+server:
+  port: 5555
+  
+logging:
+   level:
+      com.netflix: WARN
+      org.springframework.web: WARN
+      com.thoughtmechanix: DEBUG
+      
+management:
+  endpoints:
+    web:
+      exposure:
+#         include: refresh, info
+         include: "*"
