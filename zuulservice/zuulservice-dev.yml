@@ -1,3 +1,5 @@
+message: 'zuul dev message'
+
 management:
   endpoints:
     web:

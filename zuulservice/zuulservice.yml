@@ -1,3 +1,5 @@
+message: 'zuul standard message'
+
 zuul:
    ignored-services: '*'
    prefix: /api
