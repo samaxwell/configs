@@ -7,7 +7,13 @@ zuul:
       configserver: /configs/**
       userservice: /authors/**
       blogcrud: /blogs/**  
-      
+
+management:
+  endpoints:
+    web:
+      exposure:
+         include: '*'
+               
 logging:
    level:
       com.netflix: WARN
